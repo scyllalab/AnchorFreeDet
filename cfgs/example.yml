@@ -1,0 +1,6 @@
+  
+INPUT:
+  SIZE: [960, 576]
+  DATADIR: "/workspace/mnt/storage/dingrui/traffic-detection-data/Traffic_Fu_Xu"
+  DATASETNAME: "DetectionsVOC"
+  JITOPTS: ["CvColorJitter", "CvHorizontalFlip", "CvNormalize", "CvToTensor"]
